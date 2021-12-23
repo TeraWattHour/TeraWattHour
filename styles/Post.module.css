@@ -1,0 +1,11 @@
+.title {
+  @apply font-medium relative text-3xl mb-3 w-auto;
+}
+.title::after {
+  content: "";
+  z-index: -1;
+  width: calc(var(--diagonal) - 10px);
+
+  transform: rotate(-4deg);
+  @apply absolute left-3 -bottom-1 bg-gradient-to-r origin-bottom-left from-blue-300/60 to-blue-300/20 h-2.5 transition-all duration-500 ease-in-out;
+}
