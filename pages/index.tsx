@@ -7,22 +7,29 @@ import getTitle from "../lib/getTitle";
 const elements = [
   {
     title: "About me",
-    content:
-      "<p>I'm a full-stack web developer from Poland. I like trying out new technologies and innovations, learning different programming languages brings me joy (when language ≠ Rust). I work mainly in React and Larvel, Go, Python, Nest, majority of my work is directed towards backend. When I'm not programming web apps, I like to tinker with Arduinos or Raspberry Pis, I'm also learning 3D modelling.</p>",
+    content: `<p>
+        I'm a full-stack web developer from Poland. I like trying out new technologies and innovations,
+        learning different programming languages brings me joy (when language ≠ Rust). I work mainly
+        in React and Larvel, Go, Python, Nest, majority of my work is directed towards backend. When I'm not programming web apps,
+        I like to tinker with Arduinos or Raspberry Pis, I'm also learning 3D modelling. This site is also a part of my YouTube 
+        channel, here I will publish more detailed, written reviews of the products that will be featured earlier on YouTube.
+      </p>`,
   },
   {
     title: "My previous work",
     content: `My portfolio consists of:
       <ul>
-        <li><a href="http://twh-noted.herokuapp.com" target="_blank">Noted.</a> simple note-taking app,</li>
+        <li>Noted. simple note-taking app,</li>
         <li><a href="http://twh-tex.herokuapp.com" target="_blank">TEX</a> Polish-English learning app,</li>
         <li>much more side-projects that aren't hosted anymore.</li>
       </ul>`,
   },
   {
     title: "My goal",
-    content:
-      "<p>Since I'm still in school, I'd like to gain as much experience now, when I still have a lot of free time. If you have a project, business or platform idea contact me at <a href='mailto:me@terawatthour.dev'>me@terawatthour.dev</a> and I'll put your thoughts into life.</p>",
+    content: `<p>
+        Since I'm still in school, I'd like to gain as much experience now, when I still have a lot of free time. 
+        If you have a project, business or platform idea contact me at <a href = 'mailto:me@terawatthour.dev'>me@terawatthour.dev</a>
+        and I'll put your thoughts into life.</p>`,
   },
 ];
 
