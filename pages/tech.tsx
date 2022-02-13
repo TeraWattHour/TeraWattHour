@@ -11,7 +11,12 @@ import getTitle from "../lib/getTitle";
 import Empty from "../components/Empty";
 
 export const getStaticProps = () => {
-  const files = fs.readdirSync(path.join("contents", "tech"));
+  let files;
+  try {
+    files = fs.readdirSync(path.join("contents", "tech"));
+  } catch (error) {
+    return { props: { games: [] } };
+  }
   return {
     props: {
       tech: files.map((x) => {
