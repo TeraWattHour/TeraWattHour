@@ -19,7 +19,7 @@ const elements = [
     title: "My previous work",
     content: `My portfolio consists of:
       <ul>
-        <li>Noted. simple note-taking app,</li>
+        <li><a href='https://hadro.de'>hadro.de</a> auto-parts ecommerce site,</li>
         <li><a href="http://twh-tex.herokuapp.com" target="_blank">TEX</a> Polish-English learning app,</li>
         <li>much more side-projects that aren't hosted anymore.</li>
       </ul>`,
