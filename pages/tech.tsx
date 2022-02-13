@@ -15,7 +15,7 @@ export const getStaticProps = () => {
   try {
     files = fs.readdirSync(path.join("contents", "tech"));
   } catch (error) {
-    return { props: { games: [] } };
+    return { props: { tech: [] } };
   }
   return {
     props: {

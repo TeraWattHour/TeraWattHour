@@ -11,7 +11,15 @@ import getTitle from "../../lib/getTitle";
 import PostHeader from "../../components/PostHeader";
 
 export const getStaticPaths: GetStaticPaths = () => {
-  const paths = fs.readdirSync(path.join("contents", "games"));
+  let paths;
+  try {
+    paths = fs.readdirSync(path.join("contents", "games"));
+  } catch (error) {
+    return {
+      paths: [],
+      fallback: false,
+    };
+  }
   return {
     paths: paths.map((x) => ({
       params: { slug: x.replace(".mdx", "") },

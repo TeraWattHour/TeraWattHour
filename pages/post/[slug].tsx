@@ -11,7 +11,15 @@ import Image from "next/image";
 import PostHeader from "../../components/PostHeader";
 
 export const getStaticPaths: GetStaticPaths = () => {
-  const paths = fs.readdirSync(path.join("contents", "posts"));
+  let paths;
+  try {
+    paths = fs.readdirSync(path.join("contents", "posts"));
+  } catch (error) {
+    return {
+      paths: [],
+      fallback: false,
+    };
+  }
   return {
     paths: paths.map((x) => ({
       params: { slug: x.replace(".mdx", "") },

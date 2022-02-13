@@ -11,7 +11,15 @@ import Markdown from "../../components/Markdown";
 import PostHeader from "../../components/PostHeader";
 
 export const getStaticPaths: GetStaticPaths = () => {
-  const paths = fs.readdirSync(path.join("contents", "tech"));
+  let paths;
+  try {
+    paths = fs.readdirSync(path.join("contents", "tech"));
+  } catch (error) {
+    return {
+      paths: [],
+      fallback: false,
+    };
+  }
   return {
     paths: paths.map((x) => ({
       params: { slug: x.replace(".mdx", "") },
