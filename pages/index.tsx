@@ -9,10 +9,9 @@ const elements = [
     title: "About me",
     content: `<p>
         I'm a full-stack web developer from Poland. I like trying out new technologies and innovations,
-        learning different programming languages brings me joy (when language ≠ Rust). I work mainly
-        in React and Larvel, Go, Python, Nest, majority of my work is directed towards backend. When I'm not programming web apps,
-        I like to tinker with Arduinos or Raspberry Pis, I'm also learning 3D modelling. This site is also a part of my YouTube 
-        channel, here I will publish more detailed, written reviews of the products that will be featured earlier on YouTube.
+        learning different programming languages brings me joy. I work mainly in React, Go, Python and 
+        Rust, majority of my work is directed towards backend development. When I'm not programming web apps,
+        I like to tinker with Arduinos or Raspberry Pis, I'm also learning 3D modelling.
       </p>`,
   },
   {
