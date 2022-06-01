@@ -20,6 +20,7 @@ const elements = [
       <ul>
         <li><a href='https://hadro.de' target="_blank">hadro.de</a> auto-parts ecommerce site,</li>
         <li><a href="http://twh-tex.herokuapp.com" target="_blank">TEX</a> Polish-English learning app,</li>
+        <li><a href="https://converse-lime.vercel.app" target="_blank">Converse.</a> localized number system conversion app,</li>
         <li>much more side-projects that aren't hosted anymore.</li>
       </ul>`,
   },
