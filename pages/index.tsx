@@ -21,6 +21,7 @@ const elements = [
         <li><a href='https://hadro.de' target="_blank">hadro.de</a> auto-parts ecommerce site,</li>
         <li><a href="http://twh-tex.herokuapp.com" target="_blank">TEX</a> Polish-English learning app,</li>
         <li><a href="https://converse-lime.vercel.app" target="_blank">Converse.</a> localized number system conversion app,</li>
+        <li><a href="https://gator-mu.vercel.app" target="_blank">Gator</a> localized interactive app for learning about the purpose of logic gates,</li>
         <li>much more side-projects that aren't hosted anymore.</li>
       </ul>`,
   },
